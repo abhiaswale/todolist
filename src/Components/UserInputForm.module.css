@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Pacifico&family=Padauk&display=swap");
+
+.div {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  margin-top: 3rem;
+  max-width: 46rem;
+  width: 90%;
+  align-items: center;
+  position: relative;
+}
+
+.form input {
+  position: relative;
+  font-size: 1.5rem;
+  padding: 0.8rem 0.8rem;
+  width: 46rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.form input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+.form input:hover {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.form button {
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 33.5vw;
+}
+
+.p {
+  color: rgb(160, 93, 93);
+  text-align: center;
+  font-size: 1.2rem;
+}

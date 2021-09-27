@@ -1,0 +1,18 @@
+.li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: aqua;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  padding: 1rem;
+  width: 46rem;
+  position: relative;
+}
+
+.button {
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
