@@ -1,10 +1,10 @@
 .count {
   display: flex;
   justify-content: flex-end;
-  margin-left: 72vw;
+  margin-left: 68vw;
   margin-top: 2vw;
   margin-right: 10vw;
-  font-size: 2rem;
+  font-size: 1.95rem;
   border-radius: 3px;
   padding: 1rem;
   background-color: black;
