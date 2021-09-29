@@ -34,7 +34,9 @@ function App() {
       <Counter />
       <Header />
       <UserInputForm />
-      {!error && <TaskList />}
+      <div style={{ margin: "3rem auto", maxWidth: "90%", width: "46rem" }}>
+        {!error && <TaskList />}
+      </div>
     </div>
   );
 }

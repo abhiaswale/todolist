@@ -17,7 +17,7 @@
 }
 
 .form input {
-  position: relative;
+  /* position: relative; */
   font-size: 1.5rem;
   padding: 0.8rem 0.8rem;
   width: 46rem;
@@ -45,7 +45,9 @@
   border: transparent;
   border-radius: 50px;
   position: absolute;
-  margin-left: 42.45vw;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .p {
