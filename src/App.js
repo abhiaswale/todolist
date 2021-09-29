@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const sendTaskList = async () => {
       const response = await fetch(
-        "https://todoapp-backend-45638-default-rtdb.firebaseio.com/tasks.json",
+        "https://temp-69d3b-default-rtdb.firebaseio.com/tasks.json",
         {
           method: "PUT",
           body: JSON.stringify(tasklist),
