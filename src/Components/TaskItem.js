@@ -8,9 +8,13 @@ const TaskItem = (props) => {
   const deleteItem = () => {
     dispatch(taskActions.removeTask(props.id));
   };
+  const toggleStrikethrough = (e) => {
+    e.target.style.textDecoration =
+      e.target.style.textDecoration === "line-through" ? "" : "line-through";
+  };
   return (
     <div>
-      <li className={classes.li}>
+      <li className={classes.li} onClick={toggleStrikethrough}>
         {props.children}
         <button className={classes.button} onClick={deleteItem}>
           <RiDeleteBinFill />
