@@ -11,6 +11,8 @@ Run `npm start` and then navigate to `http://localhost:3000/` .
 [To Do List ✅](http://todoapp-e2fc65.netlify.app "To Do List")
 
 ### Screenshots
-|<img src="https://imgur.com/a/8rIQDwF"  width="450">|
+![img](https://i.imgur.com/2GkkIpW.jpg?1)
 
-<img src="https://imgur.com/a/YdMGvC2"  width="450"> 
+![img](https://i.imgur.com/ReDwdJA.jpg)
+
+![img](https://i.imgur.com/ZWsxeEV.jpg)
