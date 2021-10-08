@@ -6,8 +6,6 @@
   border-radius: 20px;
   font-size: 1.8rem;
   padding: 1rem;
-  width: 46rem;
-  /* position: relative; */
 }
 
 .button {
@@ -15,4 +13,12 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .li {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }

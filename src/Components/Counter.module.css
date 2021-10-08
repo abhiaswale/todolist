@@ -1,12 +1,19 @@
 .count {
   display: flex;
   justify-content: flex-end;
-  margin-left: 68vw;
-  margin-top: 2vw;
-  margin-right: 10vw;
+}
+.count div {
+  color: aqua;
+  background-color: black;
   font-size: 1.95rem;
   border-radius: 3px;
   padding: 1rem;
-  background-color: black;
-  color: aliceblue;
+  margin-top: 2vw;
+  margin-right: 10vw;
+}
+
+@media (max-width: 768px) {
+  .count div {
+    font-size: 1rem;
+  }
 }
